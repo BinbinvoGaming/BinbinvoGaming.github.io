@@ -29,7 +29,6 @@ end
 local VisualsTab = Window:MakeTab({
 
         Name = "Visuals",
-
         Icon = "rbxassetid://4483345998",
 
         PremiumOnly = false
@@ -287,34 +286,6 @@ local CharTab = Window:MakeTab({
         PremiumOnly = false
 
 })
-
- 
-
-local TargetWalkspeed
-
-CharTab:AddSlider({
-
-        Name = "Speed",
-
-        Min = 0,
-
-        Max = 50,
-
-        Default = 5,
-
-        Color = Color3.fromRGB(255,255,255),
-
-        Increment = 1,
-
-        Callback = function(Value)
-
-                TargetWalkspeed = Value
-
-        end    
-
-})
-
- 
 
 local pcl = Instance.new("SpotLight")
 
