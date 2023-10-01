@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "BinbinvoGaming - Evader - V2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "BinbinvoGaming - Evade - V2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 -- auto jump works and if u says it doesnt u just dont know how to bhop sorry? also you have to jump first to enable the bhop thing
 local Tab = Window:MakeTab({
 Name =  "Esp Options",
