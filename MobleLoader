@@ -26,7 +26,7 @@ elseif PlaceId == 6284583030 then
 
 elseif PlaceId == 9872472334 then
 
-    loadstring(game:HttpGet(('https://BinbinvoGaming.github.io/PetSmulatorXNew/Loader'),true))()
+    game.Players.LocalPlayer:Kick('Not Support this map.')
 
 else
 
