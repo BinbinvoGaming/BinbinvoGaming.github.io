@@ -36,9 +36,9 @@ elseif PlaceId == 6284583030 then
 
     loadstring(game:HttpGet(('https://BinbinvoGaming.github.io/Evade'),true))()
 
-elseif PlaceId == 9872472334 then
+elseif PlaceId == 142823291 then
 
-    game.Players.LocalPlayer:Kick('Not Support this map.')
+    loadstring(game:HttpGet(('https://BinbinvoGaming.github.io/MurderMystery2/Loader'),true))()
 
 else
 
