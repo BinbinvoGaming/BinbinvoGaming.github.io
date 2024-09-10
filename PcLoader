@@ -40,8 +40,12 @@ elseif PlaceId == 142823291 then
 
     loadstring(game:HttpGet(('https://BinbinvoGaming.github.io/MurderMystery2/Loader'),true))()
 
+elseif PlaceId == 10260193230 then
+
+    loadstring(game:HttpGet("https://binbinvogaming.github.io/MemeSea/Fixed/Loader",true))()
+
 else
 
-    game.Players.LocalPlayer:Kick('Not Support this map.')
+    game.Players.LocalPlayer:Kick('Not Support this game.')
 
 end
