@@ -38,7 +38,7 @@ nav {
 
 .logo span {
     color: white;
-    text-shadow: 0 0 10px rgb(211,3,3);
+    text-shadow: 0 0 10px rgb(255,237,237);
 }
 
 .hamburg,
@@ -66,8 +66,8 @@ nav {
 }
 
 .nav-container .links a:hover {
-    color: rgb(211,3,3);
-    border-bottom: 2px solid rgb(211,3,3);
+    color: rgb(255,237,237);
+    border-bottom: 2px solid rgb(255,237,237);
 }
 
 .dropdown {
@@ -93,7 +93,7 @@ nav {
 }
 
 .dropdown .links a:hover {
-    background-color: rgb(211,3,3);
+    background-color: rgb(255,237,237);
 }
 
 section {
@@ -122,8 +122,8 @@ section {
 
 .content h1 span {
     font-weight: 700;
-    text-shadow: 0 0 10px rgb(211,3,3);
-    color: rgb(211,3,3);
+    text-shadow: 0 0 10px rgb(255,237,237);
+    color: rgb(255,237,237);
 }
 
 .content .typewriter {
@@ -132,8 +132,8 @@ section {
 }
 
 .typewriter span {
-    color: rgb(211,3,3);
-    text-shadow: 0 0 10px rgb(211,3,3);
+    color: rgb(255,237,237);
+    text-shadow: 0 0 10px rgb(255,237,237);
 }
 
 .content p {
